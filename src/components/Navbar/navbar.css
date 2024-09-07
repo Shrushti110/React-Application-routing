@@ -26,3 +26,12 @@
     margin-bottom: 30px;
     border-radius: 30px;
 }
+.btn{
+    background-color: rosybrown;
+    border: 1px solid gray;
+    padding: 6px;
+    width: 70px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 13px;
+}
