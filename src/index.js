@@ -9,4 +9,22 @@ import Contact from "./views/Contact/contact"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router =  createBrowserRouter()
+const router = createBrowserRouter([
+    {
+        path:'/',
+        element: <Home />
+    },
+    {
+        path:'/about',
+        element: <About />
+    },
+    {
+        path:'contact',
+        element: <Contact />
+    }
+])
+
+root.render (<RouterProvider router={router}/>)
+
+
+
